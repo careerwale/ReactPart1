@@ -28,17 +28,18 @@
 
 ////-------------------------
 
-//var HelloWorld = React.createClass({
-//    render: function () {
-//        return (
-//            <div> hello {this.props.name} </div>
-//        );
-//    }
-//});
-//ReactDOM.render(
-//    <HelloWorld name="Ankit" />,
-//    document.getElementById('content')
-//);
+var HelloWorld = React.createClass({
+    render: function () {
+        return (
+            <div> hello {this.props.name} </div>
+        );
+    }
+});
+
+ReactDOM.render(
+    <HelloWorld name="Ankit" />,
+    document.getElementById('content')
+);
 
 //////////////--------------------------
 //var CommentBox = React.createClass({
